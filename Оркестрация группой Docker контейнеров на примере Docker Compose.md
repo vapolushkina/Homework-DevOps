@@ -48,6 +48,10 @@ https://hub.docker.com/repository/docker/vapolushkina/custom-nginx/general
 
 ![image](https://github.com/user-attachments/assets/fa009f12-73f8-423e-be04-c1827e2ea672)
 
+Не могу понять в чем ошибка.
+![image](https://github.com/user-attachments/assets/2df440ba-5470-42b2-9bf7-990d6f8af7dc)
+Команды на скрине, с 9000 там ошиблась, делала 5000 порт
+Но в браузере не работает, ошибка. В чем может быть проблема?
 
 
 

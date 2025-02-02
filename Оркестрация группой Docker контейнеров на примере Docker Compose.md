@@ -42,6 +42,10 @@ https://hub.docker.com/repository/docker/vapolushkina/custom-nginx/general
 
 ---
 ### Задача 5
+![image](https://github.com/user-attachments/assets/6ce4c8c5-034c-4efc-97e5-b05470628824)
+![image](https://github.com/user-attachments/assets/32ae0d37-0789-472b-90fc-09a7569460c3)
+Путь по умолчанию для файла Compose — compose.yaml(предпочтительно) или compose.yml, который находится в рабочем каталоге. Compose также поддерживает docker-compose.yamlи docker-compose.ymlдля обратной совместимости с более ранними версиями. Если существуют оба файла, Compose предпочитает канонический compose.yaml.
+
 
 
 

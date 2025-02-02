@@ -34,6 +34,15 @@ https://hub.docker.com/repository/docker/vapolushkina/custom-nginx/general
 
 ---
 ### Задача 4
+![image](https://github.com/user-attachments/assets/25c02c77-ab53-4719-95a9-e7479d877224)
+![image](https://github.com/user-attachments/assets/23926c35-1850-4da0-9d20-fcd4bb07636e)
+![image](https://github.com/user-attachments/assets/07c88a6e-a05b-4b6b-84da-a7f8f223fde6)
+![image](https://github.com/user-attachments/assets/ab45bcdc-b917-4239-bc7e-2493b10cdb70)
+
+
+---
+### Задача 5
+
 
 
 

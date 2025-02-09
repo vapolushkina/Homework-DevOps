@@ -49,6 +49,9 @@ https://hub.docker.com/repository/docker/vapolushkina/custom-nginx/general
 ![image](https://github.com/user-attachments/assets/1707ff91-7569-4800-ba9f-78dc57747729)
 ![image](https://github.com/user-attachments/assets/d560e15b-a60d-424e-b33f-0aa6c56ba435)
 ![image](https://github.com/user-attachments/assets/a203cb65-86ec-4ef1-a881-f388a221d38f)
+![image](https://github.com/user-attachments/assets/f8f4283c-fddd-4c57-8ea3-908a9aa967b4)
+![image](https://github.com/user-attachments/assets/2818c40e-e8ef-4ed8-8be7-c609099b89db)
+![image](https://github.com/user-attachments/assets/b33e1cb3-facf-4dc2-b1c3-7695582cf21f)
 
 
 

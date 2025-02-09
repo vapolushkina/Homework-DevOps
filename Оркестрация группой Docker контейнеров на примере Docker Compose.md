@@ -46,12 +46,10 @@ https://hub.docker.com/repository/docker/vapolushkina/custom-nginx/general
 ![image](https://github.com/user-attachments/assets/32ae0d37-0789-472b-90fc-09a7569460c3)
 Путь по умолчанию для файла Compose — compose.yaml(предпочтительно) или compose.yml, который находится в рабочем каталоге. Compose также поддерживает docker-compose.yamlи docker-compose.ymlдля обратной совместимости с более ранними версиями. Если существуют оба файла, Compose предпочитает канонический compose.yaml.
 
-![image](https://github.com/user-attachments/assets/fa009f12-73f8-423e-be04-c1827e2ea672)
+![image](https://github.com/user-attachments/assets/1707ff91-7569-4800-ba9f-78dc57747729)
+![image](https://github.com/user-attachments/assets/d560e15b-a60d-424e-b33f-0aa6c56ba435)
+![image](https://github.com/user-attachments/assets/a203cb65-86ec-4ef1-a881-f388a221d38f)
 
-Не могу понять в чем ошибка.
-![image](https://github.com/user-attachments/assets/2df440ba-5470-42b2-9bf7-990d6f8af7dc)
-Команды на скрине, с 9000 там ошиблась, делала 5000 порт
-Но в браузере не работает, ошибка. В чем может быть проблема?
 
 
 

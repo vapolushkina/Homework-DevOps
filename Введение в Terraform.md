@@ -18,6 +18,11 @@ wYQn2CKFZnGegYV6
 
 ![image](https://github.com/user-attachments/assets/13eb0021-ddac-47bb-952f-3e5f80380fa0)
 
+![image](https://github.com/user-attachments/assets/60cd41d8-0f32-4081-a3a8-3e29444e329a)
+
+![image](https://github.com/user-attachments/assets/2b20258e-0af8-4bf5-b771-0e4a57646042)
+Если применять команду terraform apply -auto-approve, то мы не сможем проверить перед запуском все сценарии, которые выполняются.
+
 
 
 

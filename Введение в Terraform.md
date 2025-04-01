@@ -214,7 +214,7 @@ wYQn2CKFZnGegYV6
 }
 ```
 
-
+(Boolean) If true, then the Docker image won't be deleted on destroy operation. If this is false, it will delete the image from the docker local storage on destroy operation.
 
 
 

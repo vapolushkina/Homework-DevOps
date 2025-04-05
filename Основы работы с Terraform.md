@@ -12,6 +12,67 @@
 
 ### Задание 2
 
+Изменила хардкод на переменные.
+```
+main.tf
+
+data "yandex_compute_image" "ubuntu" {
+  family = var.vm_web_family
+}
+
+resource "yandex_compute_instance" "platform" {
+  name        = var.vm_web_name
+  platform_id = var.vm_web_platform_id
+  resources {
+    cores         = var.vm_web_cores
+    memory        = var.vm_web_memory
+    core_fraction = var.vm_web_core_fraction
+  }
+```
+```
+variables.tf
+
+variable "vm_web_family" {
+  type        = string
+  default     = "ubuntu-2004-lts"
+  description = "Ububnu Version"
+}
+
+variable "vm_web_name" {
+  type        = string
+  default     = "netology-develop-platform-web"
+  description = "Instant Name"
+}
+
+variable "vm_web_platform_id" {
+  type        = string
+  default     = "standard-v1"
+  description = "Platform ID"
+}
+
+variable "vm_web_cores" {
+  type        = string
+  default     = "2"
+  description = "vCPU"
+}
+
+variable "vm_web_memory" {
+  type        = string
+  default     = "1"
+  description = "VM memory, Gb"
+}
+
+variable "vm_web_core_fraction" {
+  type        = string
+  default     = "5"
+  description = "core fraction, %"
+}
+```
+
+
+![image](https://github.com/user-attachments/assets/c1716191-2b0c-4ee1-8b8d-a7727f16b56c)
+
+
 
 
 

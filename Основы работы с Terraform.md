@@ -194,6 +194,17 @@ resource "yandex_compute_instance" "platform" {
     ssh-keys           = "ubuntu:${var.vms_ssh_root_key}"
   }
 }
+resource "yandex_vpc_network" "develop1" {
+  name = var.vpc_name1
+}
+
+resource "yandex_vpc_subnet" "develop1" {
+  name           = var.vpc_name1
+  zone           = "ru-central1-b"
+  network_id     = yandex_vpc_network.develop.id
+  v4_cidr_blocks = var.default_cidr1
+}
+
 
 data "yandex_compute_image" "ubuntu2" {
   family = var.vm_db_family
@@ -217,7 +228,7 @@ resource "yandex_compute_instance" "platform2" {
   }
 
   network_interface {
-    subnet_id = yandex_vpc_subnet.develop.id
+    subnet_id = yandex_vpc_subnet.develop1.id
     nat       = true
   }
   metadata = {
@@ -226,7 +237,51 @@ resource "yandex_compute_instance" "platform2" {
   }
 }
 ```
-![image](https://github.com/user-attachments/assets/69516cf1-417e-4add-aa33-7d19d44f1e55)
+variables.tf
+```
+variable "cloud_id" {
+  type        = string
+  description = "-"
+}
+
+variable "folder_id" {
+  type        = string
+  description = "-"
+}
+
+variable "default_zone" {
+  type        = string
+  default     = "ru-central1-a"
+  description = "https://cloud.yandex.ru/docs/overview/concepts/geo-scope"
+}
+
+variable "default_cidr" {
+  type        = list(string)
+  default     = ["10.0.1.0/24"]
+  description = "https://cloud.yandex.ru/docs/vpc/operations/subnet-create"
+}
+
+variable "default_cidr1" {
+  type        = list(string)
+  default     = ["10.0.2.0/24"]
+  description = "https://cloud.yandex.ru/docs/vpc/operations/subnet-create"
+}
+
+variable "vpc_name" {
+  type        = string
+  default     = "develop"
+  description = "VPC network & subnet name"
+}
+
+variable "vpc_name1" {
+  type        = string
+  default     = "develop1"
+  description = "VPC network & subnet name"
+}
+```
+
+![image](https://github.com/user-attachments/assets/67faecc9-0bb4-47a6-abb9-d1d71f096a25)
+
 
 
 ### Задание 4

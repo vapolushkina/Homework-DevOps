@@ -312,6 +312,19 @@ output "My_vm" {
 
 ### Задание 6
 
+![image](https://github.com/user-attachments/assets/01b50518-0fba-453c-8238-8c2cb405f0f8)
+
+![image](https://github.com/user-attachments/assets/3de05448-c224-47ee-ba55-16919230465c)
+
+![image](https://github.com/user-attachments/assets/cf57f320-19ea-4be8-bb2f-ad90fdc06765)
+
+
+![image](https://github.com/user-attachments/assets/8beb9b4b-3ae5-412a-887a-f864b06871e4)
+
+
+
+
+
 
 
 

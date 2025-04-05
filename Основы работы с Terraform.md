@@ -321,7 +321,11 @@ output "My_vm" {
 
 ![image](https://github.com/user-attachments/assets/8beb9b4b-3ae5-412a-887a-f864b06871e4)
 
+![image](https://github.com/user-attachments/assets/2e6d5a30-eace-45a4-9b41-702d95070b15)
 
+![image](https://github.com/user-attachments/assets/440f17aa-63ce-4099-8eb4-eec15aad2afa)
+
+![image](https://github.com/user-attachments/assets/9021db4c-11a9-49a2-9e05-bbd2c3718690)
 
 
 

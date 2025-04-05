@@ -299,5 +299,23 @@ output "My_vm" {
 ![image](https://github.com/user-attachments/assets/77901112-92b1-47f0-bdbc-8c884a111903)
 
 
+### Задание 5
+
+![image](https://github.com/user-attachments/assets/5d81276f-f8fb-407d-b438-ab09447a42f0)
+
+![image](https://github.com/user-attachments/assets/2396e9b9-7384-4ada-80ca-a1ac7798be57)
+
+![image](https://github.com/user-attachments/assets/aa8d6129-c70f-466b-bad4-ed0f6693ee56)
+
+![image](https://github.com/user-attachments/assets/6e35fffe-5477-470b-936a-b9e776fbe0a3)
+
+
+### Задание 6
+
+
+
+
+
+
 
 

@@ -300,13 +300,13 @@ resource "null_resource" "web_hosts_provision" {
 
   provisioner "local-exec" {
     command  = "export ANSIBLE_HOST_KEY_CHECKING=False; ansible-playbook -i ${abspath(path.module)}/hosts.cfg ${abspath(path.module)}/test.yml"
-    on_failure = continue #Продолжить выполнение terraform pipeline в случае ошибок
+    on_failure = continue #Продолжить выполнение terraform pipeline
     environment = { ANSIBLE_HOST_KEY_CHECKING = "False" }
   }
     triggers = {
-      always_run         = "${timestamp()}" #всегда т.к. дата и время постоянно изменяются
-      playbook_src_hash  = file("${abspath(path.module)}/test.yml") # при изменении содержимого playbook файла
-      ssh_public_key     = local.ssh-keys # при изменении переменной
+      always_run         = "${timestamp()}"
+      playbook_src_hash  = file("${abspath(path.module)}/test.yml") 
+      ssh_public_key     = local.ssh-keys 
     }
   }
 ```

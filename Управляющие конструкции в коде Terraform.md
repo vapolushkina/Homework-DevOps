@@ -183,5 +183,6 @@ locals {
     serial-port-enable = "1"
   }
 ```
+![image](https://github.com/user-attachments/assets/6d55396e-3a98-4dbc-980c-9bebba63932d)
 
-
+### Задача 3

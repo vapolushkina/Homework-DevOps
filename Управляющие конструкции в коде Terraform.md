@@ -35,7 +35,9 @@ variable "yandex_compute_instance_web" {
       platform_id = "standard-v1"
     }]
 }
-
+locals {
+  ssh-keys = file("~/.ssh/id_ed25519.pub")
+}
 variable "boot_disk_web" {
   type        = list(object({
     size = number
@@ -68,7 +70,7 @@ resource "yandex_compute_instance" "web" {
   }
 
   metadata = {
-    ssh-keys = "ubuntu:${var.ssh_key}"
+    ssh-keys = "ubuntu:${дщсфд.ssh-keys}"
     serial-port-enable = "1"
   }
 

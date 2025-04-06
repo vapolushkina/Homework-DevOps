@@ -300,7 +300,7 @@ resource "null_resource" "web_hosts_provision" {
 
   provisioner "local-exec" {
     command  = "export ANSIBLE_HOST_KEY_CHECKING=False; ansible-playbook -i ${abspath(path.module)}/hosts.cfg ${abspath(path.module)}/test.yml"
-    on_failure = continue #Продолжить выполнение terraform pipeline
+    on_failure = continue 
     environment = { ANSIBLE_HOST_KEY_CHECKING = "False" }
   }
     triggers = {

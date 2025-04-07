@@ -1,37 +1,41 @@
 ```
-variable "vm_web_family" {
+variable "cloud_id" {
   type        = string
-  default     = "ubuntu-2004-lts"
-  description = "Ububnu Version"
+  description = "-"
 }
 
-variable "vm_web_name" {
+variable "folder_id" {
   type        = string
-  default     = "netology-develop-platform-web"
-  description = "Instant Name"
+  description = "-"
 }
 
-variable "vm_web_platform_id" {
+variable "default_zone" {
   type        = string
-  default     = "standard-v1"
-  description = "Platform ID"
+  default     = "ru-central1-a"
+  description = "https://cloud.yandex.ru/docs/overview/concepts/geo-scope"
 }
 
-variable "vm_web_cores" {
-  type        = string
-  default     = "2"
-  description = "vCPU"
+variable "default_cidr" {
+  type        = list(string)
+  default     = ["10.0.1.0/24"]
+  description = "https://cloud.yandex.ru/docs/vpc/operations/subnet-create"
 }
 
-variable "vm_web_memory" {
-  type        = string
-  default     = "1"
-  description = "VM memory, Gb"
+variable "default_cidr1" {
+  type        = list(string)
+  default     = ["10.0.2.0/24"]
+  description = "https://cloud.yandex.ru/docs/vpc/operations/subnet-create"
 }
 
-variable "vm_web_core_fraction" {
+variable "vpc_name" {
   type        = string
-  default     = "5"
-  description = "core fraction, %"
+  default     = "develop"
+  description = "VPC network & subnet name"
+}
+
+variable "vpc_name1" {
+  type        = string
+  default     = "develop1"
+  description = "VPC network & subnet name"
 }
 ```
